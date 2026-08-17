@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">José Fabrizio Santacruz Mujica</title>
+  <desc id="description">Perfil profesional enfocado en Ingeniería de Datos, Ciencia de Datos e Inteligencia Artificial.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#101B32"/>
+      <stop offset="1" stop-color="#25134A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#58A6FF" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1050" cy="40" r="180" fill="#7C3AED" opacity="0.08"/>
+  <circle cx="90" cy="310" r="190" fill="#0284C7" opacity="0.08"/>
+
+  <g opacity="0.82" stroke="url(#accent)" stroke-width="3" fill="none">
+    <path d="M820 228 L890 178 L958 204 L1030 126 L1112 154"/>
+    <path d="M820 118 L890 146 L958 92 L1030 126" opacity="0.5"/>
+  </g>
+  <g fill="#0D1117" stroke="url(#accent)" stroke-width="4" filter="url(#glow)">
+    <circle cx="820" cy="228" r="9"/>
+    <circle cx="890" cy="178" r="9"/>
+    <circle cx="958" cy="204" r="9"/>
+    <circle cx="1030" cy="126" r="11"/>
+    <circle cx="1112" cy="154" r="9"/>
+    <circle cx="820" cy="118" r="8"/>
+    <circle cx="890" cy="146" r="8"/>
+    <circle cx="958" cy="92" r="8"/>
+  </g>
+
+  <rect x="64" y="50" width="155" height="34" rx="17" fill="#58A6FF" fill-opacity="0.12" stroke="#58A6FF" stroke-opacity="0.5"/>
+  <text x="142" y="72" text-anchor="middle" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1.6">DATA &amp; ANALYTICS</text>
+
+  <text x="64" y="147" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="700">José Fabrizio</text>
+  <text x="64" y="202" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="47" font-weight="700">Santacruz Mujica</text>
+  <text x="67" y="247" fill="#B8C5D6" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400">Data Engineering  •  Data Science  •  Artificial Intelligence</text>
+  <text x="67" y="282" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Lima, Perú</text>
+
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" fill="none" stroke="url(#accent)" stroke-opacity="0.35"/>
+</svg>
